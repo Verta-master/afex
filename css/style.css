@@ -678,3 +678,72 @@ button {
   font-size: 50px;
   text-align: center;
 }
+@media (max-width: 1060px) {
+  .wrapper {
+    width: 100%;
+  }
+  .price__list {
+    margin-right: 0;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .price__item {
+    width: 24%;
+    margin-right: 0;
+  }
+  .delivery__text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width: 900px) {
+  .info__wrap {
+    display: block;
+  }
+  .info__contacts,
+  .info__person {
+    width: 100%;
+  }
+  .info__contacts {
+    margin-top: 20px;
+  }
+  .info {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 766px) {
+  .info__comment {
+    position: static;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+  .info__block {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .price,
+  .info {
+    margin-bottom: 70px;
+  }
+  .info__img {
+    position: static;
+    -webkit-transform: none;
+            transform: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .info__band {
+    padding-left: 0;
+  }
+  .info__wrap {
+    padding: 20px;
+    text-align: center;
+  }
+  .info__person .title {
+    text-align: center;
+  }
+  .price__item {
+    width: 250px;
+  }
+}
